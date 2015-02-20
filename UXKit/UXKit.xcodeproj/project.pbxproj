@@ -14,6 +14,7 @@
 		6ECCE13E1A96DA7400A42258 /* UXButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCE13D1A96DA7400A42258 /* UXButton.swift */; };
 		6ECCE1611A96DEA400A42258 /* UXImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCE1601A96DEA400A42258 /* UXImage.swift */; };
 		6ECCE1641A96E04500A42258 /* UXRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCE1631A96E04500A42258 /* UXRect.swift */; };
+		6ECCE1661A96E38200A42258 /* UXColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCE1651A96E38200A42258 /* UXColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		6ECCE1601A96DEA400A42258 /* UXImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UXImage.swift; sourceTree = "<group>"; };
 		6ECCE1621A96DF5E00A42258 /* Introduction.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Introduction.playground; sourceTree = "<group>"; };
 		6ECCE1631A96E04500A42258 /* UXRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UXRect.swift; sourceTree = "<group>"; };
+		6ECCE1651A96E38200A42258 /* UXColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UXColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				6ECCE13D1A96DA7400A42258 /* UXButton.swift */,
 				6ECCE1601A96DEA400A42258 /* UXImage.swift */,
 				6ECCE1631A96E04500A42258 /* UXRect.swift */,
+				6ECCE1651A96E38200A42258 /* UXColor.swift */,
 				6ECCE1191A96D80B00A42258 /* Supporting Files */,
 			);
 			path = UXKit;
@@ -226,6 +229,7 @@
 				6ECCE13E1A96DA7400A42258 /* UXButton.swift in Sources */,
 				6ECCE1611A96DEA400A42258 /* UXImage.swift in Sources */,
 				6ECCE1641A96E04500A42258 /* UXRect.swift in Sources */,
+				6ECCE1661A96E38200A42258 /* UXColor.swift in Sources */,
 				6ECCE13C1A96DA6500A42258 /* UXView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
