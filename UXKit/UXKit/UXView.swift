@@ -14,3 +14,23 @@ public typealias UXView = NSView
 public typealias UXView = UIView
 #endif
 
+public extension UXView {
+    
+    public var backingLayer: CALayer {
+        
+        #if os(iOS)
+            return self.layer
+        #endif
+        
+        #if os(OSX)
+        
+            if layer == nil {
+                
+                self.wantsLayer = true
+            }
+            
+            return self.layer!
+        
+        #endif
+    }
+}

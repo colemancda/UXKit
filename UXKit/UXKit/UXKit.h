@@ -10,8 +10,9 @@
 
 #if TARGET_OS_IPHONE
 @import UIKit;
-#elif TARGET_OS_MAC
-@import AppKit;
+#endif
+#if !TARGET_OS_IPHONE && TARGET_OS_MAC
+//@import AppKit;
 #endif
 
 //! Project version number for UXKit.

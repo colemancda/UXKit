@@ -5,6 +5,6 @@ import XCPlayground
 
 let button = UXButton(frame: UXRect(x: 0, y: 0, width: 100, height: 100))
 
-button.layer.backgroundColor = UXColor.blackColor().CGColor
+button.backingLayer.backgroundColor = UXColor.blackColor().CGColor
 
-
+button
