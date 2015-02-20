@@ -55,7 +55,7 @@ public enum UXImageRenderingMode : Int {
 
 public extension NSImage {
         
-    public func resizableImage(capInsets: UXEdgeInsets, resizingMode: UXImageResizingMode = UXImageResizingMode.Stretch) -> UXImage {
+    public func resizableImage(capInsets: UXEdgeInsets, resizingMode: UXImageResizingMode = UXImageResizingMode.Tile) -> UXImage {
         
         return self
     }

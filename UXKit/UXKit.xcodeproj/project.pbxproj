@@ -13,9 +13,10 @@
 		6ECCE13C1A96DA6500A42258 /* UXView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCE13B1A96DA6500A42258 /* UXView.swift */; };
 		6ECCE13E1A96DA7400A42258 /* UXButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCE13D1A96DA7400A42258 /* UXButton.swift */; };
 		6ECCE1611A96DEA400A42258 /* UXImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCE1601A96DEA400A42258 /* UXImage.swift */; };
-		6ECCE1641A96E04500A42258 /* UXRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCE1631A96E04500A42258 /* UXRect.swift */; };
 		6ECCE1661A96E38200A42258 /* UXColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCE1651A96E38200A42258 /* UXColor.swift */; };
 		6ECCE1681A96E51200A42258 /* UXEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCE1671A96E51200A42258 /* UXEdgeInsets.swift */; };
+		6EE5C0CD1A96F664005C994F /* UXGraphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE5C0CC1A96F664005C994F /* UXGraphics.swift */; };
+		6EE5C0CF1A96FB82005C994F /* UXBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE5C0CE1A96FB82005C994F /* UXBezierPath.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +40,10 @@
 		6ECCE13D1A96DA7400A42258 /* UXButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UXButton.swift; sourceTree = "<group>"; };
 		6ECCE1601A96DEA400A42258 /* UXImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UXImage.swift; sourceTree = "<group>"; };
 		6ECCE1621A96DF5E00A42258 /* Introduction.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Introduction.playground; sourceTree = "<group>"; };
-		6ECCE1631A96E04500A42258 /* UXRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UXRect.swift; sourceTree = "<group>"; };
 		6ECCE1651A96E38200A42258 /* UXColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UXColor.swift; sourceTree = "<group>"; };
 		6ECCE1671A96E51200A42258 /* UXEdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UXEdgeInsets.swift; sourceTree = "<group>"; };
+		6EE5C0CC1A96F664005C994F /* UXGraphics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UXGraphics.swift; sourceTree = "<group>"; };
+		6EE5C0CE1A96FB82005C994F /* UXBezierPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UXBezierPath.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +92,9 @@
 				6ECCE13D1A96DA7400A42258 /* UXButton.swift */,
 				6ECCE1601A96DEA400A42258 /* UXImage.swift */,
 				6ECCE1651A96E38200A42258 /* UXColor.swift */,
-				6ECCE1631A96E04500A42258 /* UXRect.swift */,
 				6ECCE1671A96E51200A42258 /* UXEdgeInsets.swift */,
+				6EE5C0CC1A96F664005C994F /* UXGraphics.swift */,
+				6EE5C0CE1A96FB82005C994F /* UXBezierPath.swift */,
 				6ECCE1191A96D80B00A42258 /* Supporting Files */,
 			);
 			path = UXKit;
@@ -229,10 +232,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EE5C0CF1A96FB82005C994F /* UXBezierPath.swift in Sources */,
 				6ECCE13E1A96DA7400A42258 /* UXButton.swift in Sources */,
 				6ECCE1681A96E51200A42258 /* UXEdgeInsets.swift in Sources */,
 				6ECCE1611A96DEA400A42258 /* UXImage.swift in Sources */,
-				6ECCE1641A96E04500A42258 /* UXRect.swift in Sources */,
+				6EE5C0CD1A96F664005C994F /* UXGraphics.swift in Sources */,
 				6ECCE1661A96E38200A42258 /* UXColor.swift in Sources */,
 				6ECCE13C1A96DA6500A42258 /* UXView.swift in Sources */,
 			);
@@ -432,6 +436,7 @@
 				6ECCE12E1A96D80C00A42258 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6ECCE12F1A96D80C00A42258 /* Build configuration list for PBXNativeTarget "UXKitTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +445,7 @@
 				6ECCE1311A96D80C00A42258 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
